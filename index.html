@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Hunt</title>
+        <link rel="shortcut icon" href="https://freesvg.org/img/GlitchSimplifiedSkullMountain.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1 id="top">Treasure Hunt</h1>
+                <img src="https://freesvg.org/img/GlitchSimplifiedSkullMountain.png" height="200px" alt="board game">
+            </header>
+            <div class="whole">
+                <div class="rules">
+                    <h2>Rules:</h2>
+                    <ol>
+                        <li>Find the treasure rainbow, you win.</li>
+                        <li>Find the bomb, you lose.</li>
+                        <li>You have 5 chances not to blow up.</li>
+                    </ol>
+                    <h2 id="clicks">Turns: 5</h2>
+
+
+
+
+                </div>
+                <div class="game">
+                    <table>
+                        <tr>
+                            <td id="0" onClick="treasure(0)">❓</td>
+                            <td id="1" onClick="treasure(1)">❓</td>
+                            <td id="2" onClick="treasure(2)">❓</td>
+                        </tr>
+                        <tr>
+                            <td id="3" onClick="treasure(3)">❓</td>
+                            <td id="4" onClick="treasure(4)">❓</td>
+                            <td id="5" onClick="treasure(5)">❓</td>
+                        </tr>
+                        <tr>
+                            <td id="6" onClick="treasure(6)">❓</td>
+                            <td id="7" onClick="treasure(7)">❓</td>
+                            <td id="8" onClick="treasure(8)">❓</td>
+                        </tr>
+                    </table>
+
+                    <h3 id="result"></h3>
+
+                </div>
+            </div>
+            <div class="button">
+                <button type="button" onClick="location.reload()">Restart Game</button>
+            </div>
+
+            <footer>
+                <p>Meo, Joe, & Danny</p>
+                <p><a href="#top">Top</a></p>
+            </footer>
+
+        </main>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
