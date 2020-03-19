@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Meo Huynh</title>
+
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- stylesheets -->
+      <link rel="stylesheet" href="assets/stylesheets/style.css">
+      <link rel="stylesheet" href="assets/stylesheets/index.css">
+      <!-- fontawesome -->
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One|Sulphur+Point:300,400,700&display=swap" rel="stylesheet">
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <!-- bootstrap js -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <span id="top"></span>
+    <!-- See: https://getbootstrap.com/docs/4.0/components/navbar/-->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light">
+      <div class="container" id="navContainer">
+
+        <a href="https://github.com/meo8" target="_blank"><img class="logo-mark" src="assets/images/github.png" alt="">
+        </a>
+
+        <a href="https://linkedin.com/in/meoh" target="_blank"><img class="logo-mark" src="assets/images/linkedin.png" alt=""></a>
+
+        <a href="mailto:meoh92@gmail.com.tld?subject=Coming From Your Website" target="_blank"><img class="logo-mark" src="assets/images/gmail.svg" alt=""></a>
+
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ml-auto mt-lg-0">
+            <li class="nav-item active" id="homeTab">
+              <a class="nav-link" href="index.html" disabled>Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" id="aboutTab">
+              <a class="nav-link" href="#intro">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <header>
+      <h1 id="fullName">MEO HUYNH</h1>
+      <h2 id="subTitle">Full Stack Developer</h2>
+      <a href="#background" id="homeIcon">▼</a>
+    </header>
+
+
+
+
+    <span id="intro"></span>
+    <div id="mainContainer">
+      <!-- See: https://getbootstrap.com/docs/4.0/layout/overview/ -->
+      <main class="row">
+        <section id="imageContainer" class="col-lg-5 col-md-12 col-sm-12">
+          <div id="imgBorder">
+            <div id="myImage"></div>
+          </div>
+        </section>
+
+
+
+
+        <section class="col-lg-7 col-md-12 col-sm-12">
+          <article id="aboutMe">
+            <h1>WHO'S THIS GIRL?</h1>
+            <h3>Hi, I'm Meo</h3>
+            <p class="myText">Computers always fascinated me with its endless possibilities. As a current student of LEARN Academy, an intense and immersive web development program, I strive to be a better problem solver.</p>
+
+            <p>My passion is to create websites with a minimalisic approach on design and a focus on intuitive UX/UI.</p>
+
+            <h3>The Projects</h3>
+            <p class="myText">
+              To see some of my projects, <a href=work.html>click here!</a>
+            </p>
+          </article>
+        </section>
+
+
+
+        <section id="techStack">
+          <h2>Technology Stack</h2>
+          <hr>
+          <div id="stackContainer">
+            <div class="stackDescription">
+              <p>HTML5</p>
+              <img class="stackIcon" src="assets/images/tech-stack/html.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>CSS3</p>
+              <img class="stackIcon" src="assets/images/tech-stack/css.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>JavaScript</p>
+              <img class="stackIcon" src="assets/images/tech-stack/js.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>React</p>
+              <img class="stackIcon" src="assets/images/tech-stack/react.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Bootstrap</p>
+              <img class="stackIcon" src="assets/images/tech-stack/bootstrap.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Ruby</p>
+              <img class="stackIcon" src="assets/images/tech-stack/ruby.png" alt="">
+
+            </div>
+
+            <div class="stackDescription">
+              <p>Rails</p>
+              <img class="stackIcon" src="assets/images/tech-stack/rails.png" alt="">
+
+            </div>
+
+            <div class="stackDescription">
+              <p>PostgreSQL</p>
+              <img class="stackIcon" src="assets/images/tech-stack/postgresql.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Jest</p>
+              <img class="stackIcon" src="assets/images/tech-stack/jestjs.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Rspec</p>
+              <img class="stackIcon" src="assets/images/tech-stack/rspec.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Git</p>
+              <img class="stackIcon" src="assets/images/tech-stack/git.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>GitHub</p>
+              <img class="stackIcon" src="assets/images/tech-stack/github.png" alt="">
+            </div>
+          </div>
+
+            <p><a href="assets/mh_2020_resume.pdf" target="_blank" download="meo_cv"><button type="button" class="btn btn-outline-primary mt-5">Download Resume</button></a></p>
+        </section>
+
+
+
+      </main>
+    </div>
+
+
+
+
+    <footer>
+      <h3>Connect with me!</h3>
+        <div id="logoContainer">
+          <!-- These are list items. -->
+          <a href="https://github.com/meo8"><img class="logo-mark" src="assets/images/github.png" alt=""></a>
+
+          <a href="https://linkedin.com/in/meoh" target="_blank"><img class="logo-mark" src="assets/images/linkedin.png" alt=""></a>
+
+          <a href="mailto:meoh92@gmail.com.tld?subject=Coming From Your Website" target="_blank"><img class="logo-mark" src="assets/images/gmail.svg" alt=""></a>
+        </div>
+
+      <p>Page created by Meo Huynh &copy; 2020.</p>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
