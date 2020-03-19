@@ -74,7 +74,8 @@ main > div {
 /* within #background, inside main element */
 #myImage {
   border-radius: 50%;
-  background-image: url("../images/portrait.jpg");
+  background: url(../images/portrait1.jpg) center;
+  background-position: 15px -47px;
   background-size: cover;
   width: 400px;
   height: 400px;
