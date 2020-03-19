@@ -3,22 +3,17 @@ div .card-img-top {
   box-shadow: 1px 1px 6px 2px lightgrey;
 }
 
+#deck-holder {
+  padding: 1.25rem 0.1rem;
+  box-shadow: 8px 7px 52px -37px rgba(149,156,144,0.5);
+}
+
 .dropdown-menu {
   margin: -50px;
   padding: 0;
   min-width: 12rem;
   font-size: 1.5rem;
 }
-
-.techItem {
-  border-bottom: dotted 1px lightgrey;
-}
-
-#deck-holder {
-  padding: 1.25rem 0.1rem;
-  box-shadow: 8px 7px 52px -37px rgba(149,156,144,0.5);
-}
-
 .background {
   background: rgb(159,209,180);
   background: linear-gradient(0deg, rgba(159,209,180,0) 0%, rgba(159,209,195,1) 65%);
@@ -45,6 +40,19 @@ div .card-img-top {
   width: 98px;
   font-size: 0.85em;
 }
+
+.techItem {
+  border-bottom: dotted 1px lightgrey;
+}
+
+
+/**
+  *
+  *
+  * MEDIA QUERIES
+  *
+ */
+
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
   #myLinks {

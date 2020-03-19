@@ -4,16 +4,6 @@
   font-family: 'Sulphur Point', sans-serif;
 }
 
-article h1 {
-  text-align: center;
-  border: solid rgba(159, 209, 195, 1);
-  padding: 10px 30px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 22px;
-  border-bottom-right-radius: 22px;
-  border-bottom-left-radius: 0px;
-}
-
 body {
   font-size: 120%;
 }
@@ -76,12 +66,6 @@ section > p {
   text-align: center;
 }
 
-.navbar {
-  background-color: rgba(159,209,195,1);
-  padding-top: 0.75em;
-  z-index: 8;
-}
-
 nav .logo-mark {
   margin-right: 2em;
   font-size: 1.1em;
@@ -90,6 +74,12 @@ nav .logo-mark {
 
 nav .logo-mark:hover {
   width: 34px;
+}
+
+.navbar {
+  background-color: rgba(159,209,195,1);
+  padding-top: 0.75em;
+  z-index: 8;
 }
 
 .nav-item {

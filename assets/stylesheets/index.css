@@ -1,6 +1,8 @@
 /**
   *
+  *
   * All element selectors in alphabetical order
+  *
   *
  */
 
@@ -18,15 +20,26 @@ main > div {
   margin-bottom: 10%;
 }
 
+
 /**
+  *
   *
   * All ids in alphabetical order
   *
+  *
  */
 
+
 #aboutMe > h1 {
-  font-size: 2.5em;
   margin: 30px 0;
+  width: 63%;
+  font-size: 2.5em;
+  border: solid rgba(159, 209, 195, 1);
+  padding: 9px 10px 5px 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 0px;
 }
 
 #aboutMe > h3 {
@@ -112,11 +125,15 @@ main > div {
   margin: 0.5em;
 }
 
+
 /**
+  *
   *
   * All classes in alphabetical order
   *
+  *
  */
+
 
 /* within article element with aboutMe id */
 .myText > a {
@@ -141,12 +158,14 @@ main > div {
 }
 
 
-
 /**
+  *
   *
   * MEDIA QUERIES
   *
+  *
  */
+
 
 @media screen and (max-width: 575.98px) {
   hr {
@@ -159,9 +178,12 @@ main > div {
   }
 
   #aboutMe > h1 {
+    width: 100%;
+    text-align: center;
     font-size: 2.28em;
     position: absolute;
     top: -550px;
+    right: 0px;
   }
 
   #mainContainer {
