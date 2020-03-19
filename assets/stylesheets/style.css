@@ -4,6 +4,16 @@
   font-family: 'Sulphur Point', sans-serif;
 }
 
+article h1 {
+  text-align: center;
+  border: solid rgba(159, 209, 195, 1);
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+
 body {
   font-size: 120%;
 }
