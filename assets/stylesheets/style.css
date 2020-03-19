@@ -156,6 +156,7 @@ a.list-group-item.list-group-item-action:hover {
   }
 
   footer {
+    margin-top: 4rem;
     padding-top: 1.25rem !important;
   }
 
@@ -175,14 +176,25 @@ a.list-group-item.list-group-item-action:hover {
     visibility: hidden;
   }
 
+  .navbar {
+    padding-top: 0.5em;
+    padding-bottom: .75em;
+  }
+
   .nav-item {
     width: 100% !important;
     margin-top: 10px !important;
     border-radius: 0 !important;
     font-size: 1em !important;
+    background-color: rgba(159,209,195, 0.9);
   }
 
   .navbar-light .navbar-nav .active > .nav-link {
     border-radius: 0 !important;
+    background-color: rgba(159,209,195, 1);
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,0.75) !important;
   }
 }
