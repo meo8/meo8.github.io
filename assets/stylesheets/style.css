@@ -78,6 +78,10 @@ nav .logo-mark {
   width: 30px;
 }
 
+nav .logo-mark:hover {
+  width: 34px;
+}
+
 .nav-item {
   width: 100px;
   margin: 0 5px;
