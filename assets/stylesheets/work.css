@@ -1,19 +1,13 @@
-#deck-holder {
-  /* padding: 1.25rem 0.1rem;
-  box-shadow: 8px 7px 52px -37px rgba(149,156,144,0.5); */
-}
-
 .card {
   margin-top: 2rem;
 }
 
 .card-body {
   height: 100%;
-  min-height: 12rem;
+  min-height: 14rem;
 }
 
 .card-deck {
-  /* justify-content: center; */
   padding: 3rem;
 }
 
@@ -42,20 +36,17 @@
 }
 
 .dropdown-menu {
-  margin: -7px;
-  padding: 0;
-  min-width: 7rem;
+  padding: 11px;
+  min-width: 10rem;
   /* font-size: 1.5rem; */
-}
-.background {
-  background: linear-gradient(0deg, rgba(159,209,180,0) 0%, rgba(159,209,195,1) 65%);
-  padding: 1rem 1rem 8rem 1rem;
+  background: rgba(0,0,0, 0.75);
 }
 
-/* .background > .container {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-} */
+}
+.background {
+  background-color: linear-gradient(0deg, rgba(159,209,180,0) 0%, rgba(159,209,195,1) 65%);
+  padding: 1rem 1rem 8rem 1rem;
+}
 
 .btn-group.dropup {
   width: 100%;
@@ -91,9 +82,7 @@
   margin: 5px 0px;
 }
 
-/* .treasure-hunt {
-  visibility: hidden;
-} */
+
 
 
 /**
